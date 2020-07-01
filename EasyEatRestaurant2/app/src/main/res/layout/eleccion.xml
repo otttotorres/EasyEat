@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ifondo"
+    tools:context=".Eleccion">
+
+
+    <TextView
+        android:id="@+id/textSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="340dp"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="SALA"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textCocina"
+        app:layout_constraintTop_toBottomOf="@+id/b_sala" />
+
+    <TextView
+        android:id="@+id/textCocina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="356dp"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="COCINA"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/textSala"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_cocina" />
+
+    <TextView
+        android:id="@+id/textAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1003dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="ADMINISTRADOR"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b_admin" />
+
+    <Button
+        android:id="@+id/b_admin"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="1070dp"
+        android:layout_marginTop="135dp"
+        android:layout_marginEnd="110dp"
+        android:background="@drawable/ic_admin"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textSala" />
+
+    <Button
+        android:id="@+id/b_cocina"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="230dp"
+        android:background="@drawable/ic_cocina"
+        android:gravity="center"
+        app:layout_constraintEnd_toStartOf="@+id/b_sala"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/b_sala"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="275dp"
+        android:background="@drawable/ic_sala"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/b_cocina"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

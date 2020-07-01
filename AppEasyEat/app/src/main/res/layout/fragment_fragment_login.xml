@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ifondo"
+    tools:context=".Fragment.FragmentLogin">
+
+
+    <Button
+        android:id="@+id/btn_olvido_pass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="81dp"
+        android:gravity="center"
+        android:text="@string/ACT_main_btn_olvidopassword"
+        android:textColor="@color/colorTexto"
+        android:textColorHint="@color/colorTexto"
+        android:background="@android:color/transparent"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_crear_cta2" />
+
+    <Button
+        android:id="@+id/btn_crear_cta2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="158dp"
+        android:gravity="center"
+        android:text="@string/ACT_main_btn_crearcta"
+        android:textColor="@color/colorTexto"
+        android:background="@android:color/transparent"
+        android:textSize="9sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_olvido_pass2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar3" />
+
+    <Button
+        android:id="@+id/btn_entrar3"
+        android:layout_width="203dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="@string/ACT_main_btn_entar"
+        android:textColor="@color/colorTexto"
+        android:background="@drawable/styles_border"
+        app:layout_constraintBottom_toTopOf="@+id/btn_crear_cta2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_password3" />
+
+    <EditText
+        android:id="@+id/ed_password3"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="81dp"
+        android:layout_marginBottom="24dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/ACT_main_txt_password"
+        android:inputType="textPassword"
+        android:textColor="@color/colorTexto"
+        android:textColorHint="@color/colorTexto"
+        android:backgroundTint="@color/colorTexto"
+        app:layout_constraintBottom_toTopOf="@+id/btn_entrar3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_usuario3" />
+
+    <EditText
+        android:id="@+id/ed_usuario3"
+        android:layout_width="248dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="22dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/ACT_main_txt_usuario"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorTexto"
+        android:textColorHint="@color/colorTexto"
+        android:backgroundTint="@color/colorTexto"
+        app:layout_constraintBottom_toTopOf="@+id/ed_password3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="204dp"
+        android:layout_height="168dp"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="104dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>

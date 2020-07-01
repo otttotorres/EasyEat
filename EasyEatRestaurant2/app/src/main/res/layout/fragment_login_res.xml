@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ifondo"
+    tools:context=".Fragment.FragmentLoginRes">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="100dp"
+        android:gravity="center"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_codigoRes"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        android:gravity="center"
+        android:textColor="@color/colorTexto"
+        android:textColorHint="@color/colorTexto"
+        android:backgroundTint="@color/colorTexto"
+        android:ems="10"
+        android:hint="@string/ACT_main_txt_codidoRestaurant"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/ed_usuario"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="150dp"
+        android:gravity="center"
+        android:textColor="@color/colorTexto"
+        android:textColorHint="@color/colorTexto"
+        android:backgroundTint="@color/colorTexto"
+        android:ems="10"
+        android:hint="@string/ACT_main_txt_usuario"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_codigoRes" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="325dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="245dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="273dp"
+        android:gravity="center"
+        android:textColor="@color/colorTexto"
+        android:textColorHint="@color/colorTexto"
+        android:backgroundTint="@color/colorTexto"
+        android:ems="10"
+        android:hint="@string/ACT_main_txt_password"
+        android:inputType="numberPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.485"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_usuario" />
+
+    <Button
+        android:id="@+id/btn_entrar"
+        android:layout_width="287dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="311dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="332dp"
+        android:gravity="center"
+        android:textColor="@color/colorTexto"
+        android:background="@drawable/styles_border"
+        android:text="@string/ACT_main_btn_entar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.46"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_password" />
+
+    <Button
+        android:id="@+id/btn_olvido_pass2"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="138dp"
+        android:gravity="center"
+        android:text="@string/ACT_main_btn_olvidopassword"
+        android:textColor="@color/colorTexto"
+        android:textColorHint="@color/colorTexto"
+        android:background="@android:color/transparent"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_crear_cta2" />
+
+    <Button
+        android:id="@+id/btn_crear_cta2"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="158dp"
+        android:gravity="center"
+        android:textColor="@color/colorTexto"
+        android:textColorHint="@color/colorTexto"
+        android:background="@android:color/transparent"
+        android:text="@string/ACT_main_btn_crearcta"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_entrar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

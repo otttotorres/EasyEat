@@ -1,0 +1,33 @@
+<resources>
+    /*Activity main*/
+    <string name="app_name">EasyEat</string>
+    <string name="ACT_main_txt_usuario">Usuario</string>
+    <string name="ACT_main_txt_password">Password</string>
+    <string name="ACT_main_btn_entar">Entrar</string>
+    <string name="ACT_main_btn_crearcta">Crear cuenta</string>
+    <string name="ACT_main_btn_olvidopassword">He olvido mi password</string>
+
+    /* Activity ing_codigo*/
+    <string name="Act_ing_cod_txt_introduce">Introduce Codigo del Restaurant</string>
+    <string name="Act_ing_cod_txt_codigo">Restaurant</string>
+    <string name="Act_ing_cod_btn_irRest">Ir a Restaurant</string>
+
+
+    /*Activity crear cta*/
+    <string name="Act_crear_cat_txt_email">Email</string>
+    <string name="Act_crear_cat_txt_passwor">Password</string>
+    <string name="Act_crear_cat_btn_regist">Registrate</string>
+    <string name="Act_crear_cat_btn_volverInicioSesion">Inicio sesion</string>
+
+    /*Activity RecuperarPassword*/
+    <string name="Act_recupera_lbl_titulo">Introduzca su email para restablecer</string>
+    <string name="Act_recupera_lbl_titulo2">su nueva contraseña</string>
+    <string name="Act_recupera_txt_emial">Email</string>
+    <string name="Act_recupera_inicia_secion">Restablecer Contraseña</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

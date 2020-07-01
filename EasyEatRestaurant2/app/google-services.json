@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "685994583977",
+    "firebase_url": "https://appeasyeat-beta1.firebaseio.com",
+    "project_id": "appeasyeat-beta1",
+    "storage_bucket": "appeasyeat-beta1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685994583977:android:8f619dd7034b8f2d4246b8",
+        "android_client_info": {
+          "package_name": "com.example.appeasyeat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685994583977-01b0k2nep6570gakv2rak23t0rm7lg5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUwiSNlv-0P2NI9r_suo88FodqrhOFf_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685994583977-01b0k2nep6570gakv2rak23t0rm7lg5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:685994583977:android:c21faa197d438cc84246b8",
+        "android_client_info": {
+          "package_name": "com.example.easyeatrestaurant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "685994583977-01b0k2nep6570gakv2rak23t0rm7lg5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUwiSNlv-0P2NI9r_suo88FodqrhOFf_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "685994583977-01b0k2nep6570gakv2rak23t0rm7lg5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
